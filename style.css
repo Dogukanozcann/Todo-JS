@@ -1,0 +1,15 @@
+
+.image{
+    background-image: url("bg-todo.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header{
+    font-size: 25px;
+}
+
+a{
+    color:white;
+}
