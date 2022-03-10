@@ -27,11 +27,24 @@ a{
     font-size: 13px;
     font-weight: bold
 }
- ul{
+
+#task-all{
+    margin: 0.5px;
+    padding: 0.5px;
     overflow: auto;
-    height: 15vh;
+    position: relative;
+    justify-content: space-between;
+    overflow: auto;
+    
     
 }
+ ul{
+   max-height: 240px;
+   max-width: 1500px;
+    
+ }
+
+
 
 
  
