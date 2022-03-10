@@ -17,7 +17,15 @@ function eventListeners(){
 function addNewItem(e){
     if(input.value ===''){
         alert('Please New İtem');
+        e.preventDefault();
+        return    
+              
     }
+   
+    
+    
+
+    
 
     const li= document.createElement('li');
     li.className='list-group-item list-group-item-secondary';
@@ -33,9 +41,10 @@ function addNewItem(e){
     taskList.appendChild(li);
 
     input.value='';
+    
 
     e.preventDefault();
-
+    return;
 }
 
 function deleteItem(e) {
@@ -51,10 +60,11 @@ function deleteItem(e) {
 function deleteAllItems(e) {
 
     if (confirm('Sure ?')) {
-        // taskList.innerHTML='';
+        taskList.innerHTML='';
         taskList.childNodes.forEach(function (item) {
             if (item.nodeType === 1) {
                 item.remove();
+                return(li);
             }
         });
     }

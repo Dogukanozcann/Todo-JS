@@ -8,9 +8,30 @@
     background-image: url("bg-todo.jpg");
 }
 #header{
-    font-size: 25px;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 a{
     color:white;
 }
+
+.card {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#btnDeleteAll {
+    font-size: 13px;
+    font-weight: bold
+}
+ ul{
+    overflow: auto;
+    height: 15vh;
+    
+}
+
+
+ 
