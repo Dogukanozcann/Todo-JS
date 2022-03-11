@@ -5,8 +5,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("bg-todo.jpg");
+    background-image: url("bg-todo1.jpg");
 }
+
+
 #header{
     font-size: 45px;
     text-align: center;
@@ -18,7 +20,7 @@ a{
 }
 
 .card {
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     font-weight: bold;
 }
@@ -41,9 +43,9 @@ a{
  ul{
    max-height: 240px;
    max-width: 1500px;
-    
  }
 
+ 
 
 
 

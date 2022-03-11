@@ -45,6 +45,8 @@ function addNewItem(e){
 
     e.preventDefault();
     return;
+
+    
 }
 
 function deleteItem(e) {
