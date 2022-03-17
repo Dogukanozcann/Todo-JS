@@ -1,2 +1,8 @@
 # Todo-JS
-ToDo JavaScript
+## ToDo JavaScript
+
+### Kullanılan Teknolojiler
+** JavaScript
+** Html
+** Css
+![](Todowp.png)
