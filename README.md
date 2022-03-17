@@ -2,7 +2,7 @@
 ## ToDo JavaScript
 
 ### Kullanılan Teknolojiler
-** JavaScript
-** Html
-** Css
+* JavaScript
+* Html
+* Css
 ![](Todowp.png)
